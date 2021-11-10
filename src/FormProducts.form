@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormProducts">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="516" height="530"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="22436" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Consolas" size="14"/>
+          <text value="Producto:"/>
+        </properties>
+      </component>
+      <component id="559c1" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+          <font name="Consolas" size="14"/>
+        </properties>
+      </component>
+      <component id="3abaa" class="javax.swing.JButton" binding="b_buscar">
+        <constraints/>
+        <properties>
+          <text value="Buscar"/>
+        </properties>
+      </component>
+      <scrollpane id="55ec3">
+        <constraints/>
+        <properties>
+          <autoscrolls value="false"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+        <border type="bevel-raised" title="Productos"/>
+        <children>
+          <component id="80dc1" class="javax.swing.JTable" binding="tablaProductos">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="false"/>
+              <dropMode value="USE_SELECTION"/>
+              <editingColumn value="-1"/>
+              <enabled value="true"/>
+              <rowSelectionAllowed value="true"/>
+              <surrendersFocusOnKeystroke value="false"/>
+              <visible value="true"/>
+            </properties>
+            <clientProperties>
+              <JTable.autoStartsEdit class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
